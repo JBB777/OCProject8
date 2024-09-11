@@ -69,7 +69,6 @@ body {
 
 .picture img {
 	width: 100%;
-
 }
 #about-me {
 	flex: 2
@@ -80,9 +79,7 @@ body {
 	font-size: 30px;
 }
 .about-me__introduction {
-	font-family: 'Spectral';
 	font-weight: 800;
-	font-style: italic;
 	width: 60%;
 }
 #about-me p {
@@ -137,22 +134,23 @@ body {
 }
 
 .quote {
-	font-family: 'Spectral';
-	font-style: italic;
 	width: 70%;
 	margin: auto;
 	padding-block: 3em;
 }
 .quote__text {
-	font-family: Spectral;
-	font-style: italic;
 	font-weight: 300;
 
 }
 .quote__author {
-	font-family: Spectral;
 	font-weight: 800;
 	font-size: 22px;
+}
+.about-me_introduction, .quote .quote__text, .quote__author {
+	font-family: 'Spectral', serif;
+}
+.about-me__introduction, .quote .quote__text {
+	font-style: italic;
 }
 
 #services {
