@@ -35,7 +35,7 @@ body {
 
 .nav a {
 	text-decoration: none;
-	color: #000
+	color: #000;
 }
 
 .social-link img {
@@ -71,7 +71,7 @@ body {
 	width: 100%;
 }
 #about-me {
-	flex: 2
+	flex: 2;
 }
 .about-me__title {
 	margin-top: 1em;
@@ -99,7 +99,7 @@ body {
 	border-radius:0 ;
 }
 .nav-pills .nav-link {
-	color: #000
+	color: #000;
 }
 .item-column {
 	position: relative;
@@ -235,7 +235,7 @@ form textarea {
 }
 input[type="submit"] {
 	background-color: #BEB45A;
-	padding: .5em 1em
+	padding: .5em 1em;
 }
 
 @media all and (max-width: 1180px) {
@@ -282,7 +282,7 @@ input[type="submit"] {
 		width: 100%;
 		max-width: 100%;
 		height: auto;
-		margin: 2em 0
+		margin: 2em 0;
 	}
 	.service__description{
 		margin-bottom: 1em;
