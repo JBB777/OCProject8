@@ -134,7 +134,8 @@ body {
 }
 
 .visually-hidden {
-	color:black;
+	color:white;
+	background: #000;
 }
 
 #about {
